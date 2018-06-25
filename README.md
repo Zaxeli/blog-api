@@ -28,8 +28,8 @@ Design
 The app provides endpoints for the REST API which allows to insert, update and delete the blog post and user details.  
 
 There are 2 different object models present:
->Blog
->BlogUser
+1. Blog
+2. BlogUser
 
 Blog is structured as:
 [

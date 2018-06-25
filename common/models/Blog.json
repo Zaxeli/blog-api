@@ -1,0 +1,41 @@
+{
+  "name": "Blog",
+  "plural": "Blogs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "accessLevel": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "specificAccess": {
+      "type": [
+        "number"
+      ],
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "author": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {
+    "authorship": {
+      "type": "belongsTo",
+      "model": "BlogUser",
+      "foreignKey": "author"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

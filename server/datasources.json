@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "signzy-blog": {
+    "host": "ds217351.mlab.com",
+    "port": 17351,
+    "url": "mongodb://zaid_khaishagi:123456abc@ds217351.mlab.com:17351/signzy-blog",
+    "database": "signzy-blog",
+    "password": "123456abc",
+    "name": "signzy-blog",
+    "user": "zaid_khaishagi",
+    "connector": "mongodb"
+  }
+}

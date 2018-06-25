@@ -31,7 +31,7 @@ There are 2 different object models present:
 1. Blog  
 2. BlogUser  
 
-#####Blog is structured as:
+####Blog is structured as:
 [
   {
     "accessLevel": 0,
@@ -57,7 +57,7 @@ There are 2 different object models present:
 *further detailed can be found in ./common/models/Blog.json*
 
 
-#####BlogUser:
+####BlogUser:
 
 [
   {
@@ -85,7 +85,7 @@ There are 2 different object models present:
 *further detailed can be found in ./common/models/BlogUser.json*
 
 
-**The endpoints are as follows:**
+####The endpoints are as follows:  
 **PATCH** /Blogs  *Patch an existing model instance or insert a new one into the data source.*  
 
 **GET** /Blogs  *Find all instances of the model matched by filter from the data source.*  

@@ -31,7 +31,7 @@ There are 2 different object models present:
 1. Blog  
 2. BlogUser  
 
-Blog is structured as:
+#####Blog is structured as:
 [
   {
     "accessLevel": 0,
@@ -57,7 +57,7 @@ Blog is structured as:
 *further detailed can be found in ./common/models/Blog.json*
 
 
-BlogUser:
+#####BlogUser:
 
 [
   {

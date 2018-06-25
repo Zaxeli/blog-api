@@ -85,6 +85,9 @@ There are 2 different object models present:
 *further detailed can be found in ./common/models/BlogUser.json*
 
 
+The App allows for the CRUD operations on the users and the blogs throught the user of the endpoints.
+
+
 ####The endpoints are as follows:  
 **PATCH** /Blogs  *Patch an existing model instance or insert a new one into the data source.*  
 
